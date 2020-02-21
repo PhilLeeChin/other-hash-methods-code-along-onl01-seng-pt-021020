@@ -11,6 +11,6 @@ require 'pry'
 def get_the_keys(groceries)
   #code your solution here!
   groceries.collect do |types|
-    puts "#{types}"
+    "#{types}"
   end
 end
